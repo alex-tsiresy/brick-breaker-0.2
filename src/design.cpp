@@ -72,7 +72,7 @@ int lastPowerUpScore = 0;   // Score at last power-up activation
 bool powerUpActive = false; // Is a power-up currently active?
 int powerUpDuration = 10;
 
-glm::vec3 cameraPos = glm::vec3(3.0f, 15.0f, 45.0f);
+glm::vec3 cameraPos = glm::vec3(3.0f, 15.0f, 30.0f);
 glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
 glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
 glm::mat4 model = glm::mat4(1.0f);
